@@ -1,0 +1,247 @@
+$main: #E4D4A3;
+
+html {
+    padding: 35px 0 35px 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica;
+    font-size: 14px;
+    color: #666;
+}
+
+#header {
+    font-family: 'Lato';
+    padding: 25px;
+    background: $main;
+    margin-bottom: 45px;
+    color: #333;
+    
+    .inner {
+        text-align: left;
+        width: 725px;
+        margin: auto;
+    }
+    
+    ul {
+        float: right;
+        list-style-type: none;
+        
+        li {
+            float: right;
+            margin-left: 18px;
+            margin-top: 10px;
+            font-size: 23px;
+            font-weight: 300;
+            
+            a {
+                color: #333;
+                text-decoration: none;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }    
+        
+    }
+    
+    h1 {
+        font-size: 59px;
+        font-weight: bold;
+        
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+    }
+    
+    h2 {
+        font-size: 23px;
+        font-weight: 300;
+        img {
+            margin-left: 3px;
+        }
+    }
+}
+
+#content {
+    .inner {
+        text-align: left;
+        width: 725px;
+        margin: auto;
+    }
+}
+    
+.post {
+    margin-bottom: 55px;
+    
+    h3 {
+        font-size: 29px;
+        font-family: 'Lato';
+        font-weight: normal;
+        margin-bottom: 25px;
+    }
+    
+    h3 a {
+        text-decoration: none;
+    }
+    h3 a:hover {
+        text-decoration: underline;
+    }
+    
+    .body {
+        font-size: 17px;
+    }
+    
+    .body p {
+        margin-bottom: 1em;
+    }
+    
+    ul {
+        margin-bottom: 1em;
+    }
+    
+    ul li {
+        margin-bottom: 0.5em;
+    }
+    
+    .meta {
+        margin-top: 25px;
+        border-top: 3px double #ddd;
+        padding-top: 25px;
+        color: #999;
+    }
+}
+
+#footer {
+    font-family: 'Lato';
+    background: $main;
+    padding: 25px;
+    color: #333;
+    
+    .inner {
+        text-align: left;
+        width: 725px;
+        margin: auto;
+    }
+    
+    h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-weight: 300;
+        a {
+            text-decoration: none;
+            color: #333;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    table {
+        font-weight: 300;
+    }
+    
+    table tr td {
+        padding-bottom: 3px;
+        padding-right: 15px;
+    }
+    
+    table tr td a {
+        text-decoration: none;
+    }
+    
+    table tr td a:hover {
+        text-decoration: underline;
+    }
+    
+    table tr td.date {
+        text-align: right;
+    }
+    
+    .archives {
+        float: left;
+        margin-right: 25px;
+    }
+    
+    .about {
+        float: left;
+        
+        img {
+            float: left;
+        }
+        
+        div {
+            padding-left: 94px;
+            width: 140px;
+        }
+    }
+}
+
+.my_pic {
+    float: right;
+}
+
+.about_head {
+    width: 550px;
+    margin-bottom: 45px;
+}
+
+.projects_container {
+    border-top: #ddd double 3px;
+    border-bottom: #ddd double 3px;
+    padding: 35px 0 0 0;
+}
+
+table.projects {
+    td {
+        padding-bottom: 35px;
+    }
+    
+    td.img {
+        text-align: center;
+        vertical-align: middle;
+    }
+    td.desc {
+        padding-left: 45px;
+    }
+}
+
+.bubble {
+    color: #fff;
+    font-size: 13px;
+    background: #607890;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    
+    .tip {
+        background: url(/images/triangle.png) no-repeat 0 0;
+        width: 10px;
+        height: 11px;
+        position: absolute;
+        top: 19px;
+        left: -10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+#disqus_thread {
+    margin-top: 45px;
+    
+    h3 {
+        font-size: 19px;
+    }
+}
