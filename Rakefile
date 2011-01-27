@@ -2,7 +2,7 @@ desc 'deploy to server via rsync'
 task :deploy do
   # uploads ALL files b/c I often do site-wide changes and prefer overwriting all
   puts 'deploying'
-  sh "rsync -rtzh --progress --delete _site/ --rsh='ssh -p77' YOUR_SERVER:path/to/blog"
+  sh "rsync -rtzh --progress --delete _site/ --rsh='ssh -pXX' YOUR_SERVER:path/to/blog"
   puts 'done!'
 end
 
